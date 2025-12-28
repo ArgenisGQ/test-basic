@@ -1,6 +1,5 @@
 # Dockerfile for a simple static landing page
 FROM nginx:alpine
-ENV PORT 80
 COPY . /usr/share/nginx/html
-EXPOSE ${PORT}
+EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
