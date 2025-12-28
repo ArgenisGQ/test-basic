@@ -1,0 +1,12 @@
+/* Estilos para la landing page */
+body {
+    margin:0;
+    padding:0;
+    background-color:#fff;
+    font-family:sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.centered{font-size:2rem;color:#333;}
